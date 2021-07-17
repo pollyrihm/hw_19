@@ -118,39 +118,18 @@ p {
 }
 
 /* Footer */
-.emailContain {
-  background: url(../images/emailBG.jpg);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-}
 
-/* Footer form */
-form {
-  width: 500px;
-  margin: 35px auto;
-  padding: 45px;
-  border: 1px solid #F2F2F2;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
-  background-color: white;
-}
 
 /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
 .dropdown-menu {
-  left: -97px;
+  left: -20px;
 }
 footer {
   position: absolute;
   width: 100%;
   height: 60px;
   line-height: 60px;
-  background-color: #ffcc33;
+  background-color: #9e9e9e !important;
   margin-top: 50px;
 }
 .cardContainer {
