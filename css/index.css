@@ -22,14 +22,15 @@ p {
 }
 .navbar-brand img {
   padding-right: 15px;
-  width: 468px;
-  height: 136px;
+  max-width: 50%;
+  height: auto;
 }
+
 .nav-item {
   margin: 0px 15px;
 }
 .nav-link{
-  font-size: 18px;
+  font-size: 14px;
 }
 
 /* Navigation dropdown menu */
@@ -42,19 +43,19 @@ p {
     color: #16181b;
     background: rgb(17, 176, 182);
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 14px;
 }
 .hello-icon {
-  padding-right: 15px;
-  width: 156px;
-  height: 136px;
+  max-width: 60% !important;
+  height: auto;
 }
+
 /* Navigation links */
 .customNav a {
   color: white !important;
 }
 .navCTA {
-  font-size: 18px;
+  font-size: 14px;
   background: rgb(17, 176, 182);
   border: thistle;
 }
@@ -72,7 +73,7 @@ p {
 }
 
 .navCTA-2 {
-  font-size: 20px;
+  font-size: 14px;
   background: rgb(17, 176, 182);
   border: #F2F2F2;
 }
@@ -87,6 +88,14 @@ p {
   font-family: sans-serif;
 }
 
+.card-title { 
+font-size: 18px;
+}
+
+.lead {
+  font-size: 14px !important;
+}
+
 /* Cards */
 .content {
   padding: 50px;
@@ -99,6 +108,10 @@ p {
 }
 .cardContainer {
   text-align: center;
+}
+
+.card-text {
+  font-size: 14px;
 }
 
 /* Content */
