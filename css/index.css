@@ -22,7 +22,7 @@ p {
 }
 .navbar-brand img {
   padding-right: 15px;
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -32,6 +32,12 @@ p {
 .nav-link{
   font-size: 14px;
 }
+
+.Toggle .navigation {
+  color: #fff;
+  float: inline-end;
+}
+
 
 /* Navigation dropdown menu */
 .dropdown-menu {
